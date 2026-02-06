@@ -32,6 +32,7 @@ ampl = AMPL()
 <span style="color:#22863a"># Select Kestrel (NEOS) and choose a remote solver</span>
 ampl.set_option(<span style="color:#a31515">"solver"</span>, <span style="color:#a31515">"kestrel"</span>)
 ampl.set_option(<span style="color:#a31515">"kestrel_options"</span>, <span style="color:#a31515">"solver=cplex"</span>)
+
 ampl.set_option(<span style="color:#a31515">"cplex_options"</span>, <span style="color:#a31515">"outlev=2"</span>) <span style="color:#22863a"># Optional: pass solver-specific options through Kestrel</span>
 ampl.set_option(<span style="color:#a31515">"email"</span>, <span style="color:#a31515">"neos@ampl.com"</span>) <span style="color:#22863a"># Optional: email notification from NEOS</span>
 
