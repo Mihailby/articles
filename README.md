@@ -47,9 +47,9 @@ ampl.solve() <span style="color:#22863a"># Solve the problem</span>
 <span style="color:#6a737d">ampl:</span> <span style="color:#0000cc">option</span> solver kestrel;  <span style="color:#22863a"># Select Kestrel (NEOS) as the solver</span>
 <span style="color:#6a737d">ampl:</span> <span style="color:#0000cc">option</span> kestrel_options <span style="color:#a31515">'solver=cplex'</span>;  <span style="color:#22863a"># Choose the remote solver on NEOS</span></span>
 <span style="color:#6a737d">ampl:</span> <span style="color:#0000cc">option</span> cplex_options <span style="color:#a31515">'outlev=2'</span>; <span style="color:#22863a"># Optional: solver-specific options (example for CPLEX)</span>
-<span style="color:#6a737d">ampl:</span> <span style="color:#0000cc">option</span> email <span style="color:#a31515">"neos@ampl.com"</span>;<span style="color:#22863a"># Optional: NEOS email notification</span>
+<span style="color:#6a737d">ampl:</span> <span style="color:#0000cc">option</span> email <span style="color:#a31515">"neos@ampl.com"</span>; <span style="color:#22863a"># Optional: NEOS email notification</span>
 
-<span style="color:#6a737d">ampl:</span> <span style="color:#0000cc">solve</span>;  <span style="color:#22863a"># Solve the problem</span>
+<span style="color:#6a737d">ampl:</span> <span style="color:#0000cc">solve</span>;  <span style="color:#22863a"> # Solve the problem</span>
 </pre>
 <p>
 Complete documentation &mdash; including installation, configuration, supported solvers, and AMPL/Python/API examples &mdash; is available at <a href="https://dev.ampl.com/solvers/kestrel/">https://dev.ampl.com/solvers/kestrel/</a>.
