@@ -52,4 +52,4 @@ ampl.solve() <span style="color:#22863a"># Solve the problem</span>
 <span style="color:#6a737d">ampl:</span> <span style="color:#0000cc">solve</span>;  <span style="color:#22863a"># Solve the problem</span>
 </pre>
 <p>
-Complete documentation &mdash; including installation, configuration, supported solvers, and AMPL/Python/API examples &mdash; is available at: <a href="https://dev.ampl.com/solvers/kestrel/">https://dev.ampl.com/solvers/kestrel/</a>
+Complete documentation &mdash; including installation, configuration, supported solvers, and AMPL/Python/API examples &mdash; is available at <a href="https://dev.ampl.com/solvers/kestrel/">https://dev.ampl.com/solvers/kestrel/</a>.
