@@ -3,9 +3,9 @@
 AMPL supports multiple usage modes for the Kestrel interface to the NEOS Server, allowing users to solve models remotely without installing solvers locally:
 </p>
 <ul>
-  <li><a href="https://dev.ampl.com/solvers/kestrel/"><i><b>AMPL</b></i></a> &mdash; Solve models on NEOS by selecting <i>kestrel</i> as the solver directly in the AMPL environment.</li>
-  <li><a href="https://dev.ampl.com/solvers/kestrel/"><i><b>Python (amplpy)</b></i></a> &mdash; Submit and solve AMPL models programmatically from Python, enabling integration with data pipelines, notebooks, and automated workflows.</li>
-  <li><a href="https://dev.ampl.com/solvers/kestrel/"><i><b>Other APIs (R, C++, C#/.NET, Java, MATLAB)</b></i></a> &mdash; Access NEOS solvers through Kestrel for scripted or batch job submission from external applications.</li>
+  <li><a href="https://dev.ampl.com/solvers/kestrel/" target="_blank" rel="noopener noreferrer"><i><b>AMPL</b></i></a> &mdash; Solve models on NEOS by selecting <i>kestrel</i> as the solver directly in the AMPL environment.</li>
+  <li><a href="https://dev.ampl.com/solvers/kestrel/" target="_blank" rel="noopener noreferrer"><i><b>Python (amplpy)</b></i></a> &mdash; Submit and solve AMPL models programmatically from Python, enabling integration with data pipelines, notebooks, and automated workflows.</li>
+  <li><a href="https://dev.ampl.com/solvers/kestrel/" target="_blank" rel="noopener noreferrer"><i><b>Other APIs (R, C++, C#/.NET, Java, MATLAB)</b></i></a> &mdash; Access NEOS solvers through Kestrel for scripted or batch job submission from external applications.</li>
 </ul>
 
 <h4><i>Using Kestrel in Python</i></h4>
@@ -52,4 +52,4 @@ ampl.solve() <span style="color:#22863a"># Solve the problem</span>
 <span style="color:#6a737d">ampl:</span> <span style="color:#0000cc">solve</span>;  <span style="color:#22863a"> # Solve the problem</span>
 </pre>
 <p>
-Complete documentation &mdash; including installation, configuration, supported solvers, and AMPL/Python/API examples &mdash; is available at <a href="https://dev.ampl.com/solvers/kestrel/">https://dev.ampl.com/solvers/kestrel/</a>.
+Complete documentation &mdash; including installation, configuration, supported solvers, and AMPL/Python/API examples &mdash; is available at <a href="https://dev.ampl.com/solvers/kestrel/" target="_blank" rel="noopener noreferrer">https://dev.ampl.com/solvers/kestrel/</a>.
