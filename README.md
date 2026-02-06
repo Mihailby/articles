@@ -26,7 +26,7 @@ AMPL supports multiple usage modes for the Kestrel interface to the NEOS Server,
 <span style="color:#22863a"># Submit and solve a model on NEOS using Kestrel in Python (amplpy)</span>
 <span style="color:#0000cc">from</span> amplpy <span style="color:#0000cc">import</span> AMPL
 ampl = AMPL()
-
+  
 <span style="color:#22863a"># ... read/define model and data ...</span>
 
 <span style="color:#22863a"># Select Kestrel (NEOS) and choose a remote solver</span>
