@@ -8,7 +8,8 @@ AMPL supports multiple usage modes for the Kestrel interface to the NEOS Server,
   <li><a href="https://dev.ampl.com/solvers/kestrel/" target="_blank" rel="noopener noreferrer"><i><b>Other APIs (R, C++, C#/.NET, Java, MATLAB)</b></i></a> &mdash; Access NEOS solvers through Kestrel for scripted or batch job submission from external applications.</li>
 </ul>
 
-<h4><i>Using Kestrel in Python</i></h4>
+<h4><i>Using Kestrel in Python + AMPL (recommended)</i></h4>
+To maximize the optimization workflow, we recommend using AMPL with Python. This combination pairs AMPL's modeling strengths with Python's data science ecosystem, creating our recommended standard for most applications.
 
 <pre style="background:#f6f8fa; padding:10px; border-radius:4px;">
 <span style="color:#22863a"># Install Python API for AMPL:</span>
